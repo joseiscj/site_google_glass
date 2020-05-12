@@ -6,11 +6,15 @@ section#conteudo {
 }
 
 iframe#frame-spec {
-    width: 380px;
+    width: 400px;
     height: 280px;
     border: none; /* removendo a borda do iframe */
 }
 
 iframe#frame-spec::-webkit-scrollbar {
     display: none; /* Esconde a barra de rolagem */
+}
+
+area {
+    outline: 0;
 }
