@@ -16,32 +16,95 @@ ul#album-fotos li {
     border: 5px solid white;
     background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    -webkit-transition: all .4s ease-in; /* Faz a transição na presentação da imagem completa */
 }
 
 ul#album-fotos li span {
-    opacity: 0;
+    opacity: 0; /* Esconde ou deixa visível a legenda */
+    color: white;
+    text-shadow: 1px 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 370px; /* Faz com que a legenda desça */
+    padding: 5px;
+}
+
+ul#album-fotos li:hover span { /* Passando o mouse em cima da foto, ela aparecerá */
+    opacity: 1;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5); /* Zoom dado na imagem quando a passar o mouse sobre a imagem */
 }
 
 ul#album-fotos li#foto01 {
     background: url("../_imagens/galeria-01.jpg") no-repeat; /* adicionando foto no quadro de 200px */
+    background-position: 50% 50%; /* Faz com que apareça o meio da imagem */
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px; /* Volta a mostrar a parte de cima da tela */
+    background-size: 200px 200px; /* Reduz a tela quando passo o mouse por cima da foto */
 }
 
 ul#album-fotos li#foto02 {
     background: url("../_imagens/galeria-02.jpg") no-repeat; /* adicionando foto no quadro de 200px */
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white
+}
+
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px; /* Volta a mostrar a parte de cima da tela */
+    background-size: 200px 200px; /* Reduz a tela quando passo o mouse por cima da foto */
 }
 
 ul#album-fotos li#foto03 {
     background: url("../_imagens/galeria-03.jpg") no-repeat; /* adicionando foto no quadro de 200px */
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white
+}
+
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px; /* Volta a mostrar a parte de cima da tela */
+    background-size: 200px 200px; /* Reduz a tela quando passo o mouse por cima da foto */
 }
 
 ul#album-fotos li#foto04 {
     background: url("../_imagens/galeria-04.jpg") no-repeat; /* adicionando foto no quadro de 200px */
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white
+}
+
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px; /* Volta a mostrar a parte de cima da tela */
+    background-size: 200px 200px; /* Reduz a tela quando passo o mouse por cima da foto */
 }
 
 ul#album-fotos li#foto05 {
     background: url("../_imagens/galeria-05.jpg") no-repeat; /* adicionando foto no quadro de 200px */
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white
+}
+
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px; /* Volta a mostrar a parte de cima da tela */
+    background-size: 200px 200px; /* Reduz a tela quando passo o mouse por cima da foto */
 }
 
 ul#album-fotos li#foto06 {
     background: url("../_imagens/galeria-06.jpg") no-repeat; /* adicionando foto no quadro de 200px */
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white
+}
+
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px; /* Volta a mostrar a parte de cima da tela */
+    background-size: 200px 200px; /* Reduz a tela quando passo o mouse por cima da foto */
 }
