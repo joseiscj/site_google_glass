@@ -242,3 +242,10 @@ footer#rodape {
 footer p {
     text-align: center;
 }
+
+video#filme2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
